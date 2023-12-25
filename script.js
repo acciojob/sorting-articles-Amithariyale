@@ -15,7 +15,7 @@ bands.sort((a,b)=>{
 })
 
 const ul=document.createElement('ul');
-ul.setAttribute('id',"band");
+ul.setAttribute('id',"bands");
 
 bands.forEach((item)=>{
 	const li=document.createElement('li');
