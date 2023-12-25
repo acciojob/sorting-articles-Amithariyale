@@ -9,7 +9,7 @@ bands.sort((a,b)=>{
 	arr2=arr2.filter((item)=>{
 		return (item!=='A' && item!=='An' && item!=='The');
 	});
-	if(arr1[0][0]<=arr2[0][0])return -1;
+	if(arr1[0][0]<arr2[0][0])return -1;
 	else return 1;
 	
 })
